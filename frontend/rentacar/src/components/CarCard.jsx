@@ -45,7 +45,7 @@ function CarCard({ car }) {
         {/* Price and Button */}
         <div>
           <p className="text-sm font-medium mb-2">Price</p>
-          <p className="text-lg font-bold mb-3">${car.price}/day</p>
+          <p className="text-lg font-bold mb-3">Rs. {car.price}/day</p>
           <button className="w-full bg-blue-800 text-white py-2 px-4 rounded flex items-center justify-center">
             <span>Rent Now</span>
             <span className="ml-2">→</span>
