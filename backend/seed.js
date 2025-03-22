@@ -363,6 +363,21 @@ const cars = [
         description: "Premium mid-size SUV with striking design and OMEGARC architecture. Offers spacious cabin with powerful diesel engine.",
         features: ["Panoramic Sunroof", "JBL Audio System", "ADAS Features", "10.25-inch Infotainment", "Air Purifier"],
         licensePlate: "HRR-523"
+      },
+      {
+        make: "Tata",
+        model: "Harrier",
+        year: 2023,
+        price: 4000,
+        transmission: "Automatic",
+        seats: 5,
+        fuelType: "Diesel",
+        available: true,
+        image: "https://via.placeholder.com/800x600?text=Tata+Harrier",
+        category: "SUV",
+        description: "Premium mid-size SUV with striking design and OMEGARC architecture. Offers spacious cabin with powerful diesel engine.",
+        features: ["Panoramic Sunroof", "JBL Audio System", "ADAS Features", "10.25-inch Infotainment", "Air Purifier"],
+        licensePlate: "HRR-523"
       }
 ];
 
