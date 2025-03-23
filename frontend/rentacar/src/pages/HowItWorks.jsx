@@ -3,7 +3,7 @@ import * as React from "react";
 
 function HowItWorks() {
   return (
-    <div id="become-a-renter" className="px-40 py-20 bg-slate-950 max-md:p-10">
+    <div id="become-a-renter" className="px-40 py-20 c max-md:p-10">
       <div className="mb-20 text-center">
         <div className="px-8 py-4 mb-8 text-sm bg-yellow-400 rounded-lg text-blue-950">
           HOW IT WORKS?

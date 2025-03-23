@@ -223,7 +223,7 @@ const cars = [
         seats: 5,
         fuelType: "Diesel",
         available: true,
-        image: "https://via.placeholder.com/800x600?text=Hyundai+Creta",
+        image: "https://w7.pngwing.com/pngs/755/262/png-transparent-hyundai-motor-company-car-hyundai-creta-hyundai-accent-hyundai-compact-car-car-color-thumbnail.png",
         category: "SUV",
         description: "Popular compact SUV with premium features and comfortable ride quality. Available in both petrol and diesel variants with excellent mileage.",
         features: ["Panoramic Sunroof", "Ventilated Seats", "10.25-inch Touchscreen", "BlueLink Connected Car Tech", "ADAS Features"],
@@ -238,7 +238,7 @@ const cars = [
         seats: 5,
         fuelType: "Petrol",
         available: true,
-        image: "https://via.placeholder.com/800x600?text=Maruti+Suzuki+Brezza",
+        image: "https://w7.pngwing.com/pngs/294/368/png-transparent-car-maruti-suzuki-vitara-baleno-colorful-light-fog-compact-car-car-vehicle-thumbnail.png",
         category: "Compact SUV",
         description: "Reliable compact SUV with good fuel efficiency and practical features. Comes with a strong service network across India.",
         features: ["SmartPlay Studio", "Cruise Control", "Auto Headlamps", "Rain Sensing Wipers", "360-degree Camera"],
@@ -253,7 +253,7 @@ const cars = [
         seats: 5,
         fuelType: "Petrol",
         available: true,
-        image: "https://via.placeholder.com/800x600?text=Tata+Nexon",
+        image: "https://w7.pngwing.com/pngs/491/46/png-transparent-tata-motors-maruti-suzuki-dzire-car-tata-nexon-xza-petrol-car-compact-car-car-vehicle-thumbnail.png",
         category: "Compact SUV",
         description: "Stylish compact SUV with 5-star safety rating and modern design. Available in petrol, diesel, and electric variants.",
         features: ["5-Star NCAP Rating", "Electronic Stability Program", "iRA Connected Car Tech", "Air Purifier", "Wireless Charging"],
@@ -362,7 +362,7 @@ const cars = [
         category: "SUV",
         description: "Premium mid-size SUV with striking design and OMEGARC architecture. Offers spacious cabin with powerful diesel engine.",
         features: ["Panoramic Sunroof", "JBL Audio System", "ADAS Features", "10.25-inch Infotainment", "Air Purifier"],
-        licensePlate: "HRR-523"
+        licensePlate: "HRD-523"
       },
       {
         make: "Tata",
@@ -392,8 +392,38 @@ const cars = [
         category: "SUV",
         description: "Premium mid-size SUV with striking design and OMEGARC architecture. Offers spacious cabin with powerful diesel engine.",
         features: ["Panoramic Sunroof", "JBL Audio System", "ADAS Features", "10.25-inch Infotainment", "Air Purifier"],
-        licensePlate: "HRR-523"
-      }
+        licensePlate: "HRC-523"
+      },
+      {
+        make: 'Honda',
+        model: 'Accord',
+        year: 2022,
+        price: 45,
+        transmission: 'Automatic',
+        seats: 5,
+        fuelType: 'Gasoline',
+        available: true,
+        image: 'https://di-uploads-pod14.dealerinspire.com/hondaeastcincy/uploads/2023/02/2302-Honda-Accord-Touring-Hybrid-Trim.jpg',
+        category: 'Sedan',
+        description: 'Sporty sedan with excellent handling and spacious interior.',
+        features: ['Apple CarPlay', 'Android Auto', 'Heated Seats', 'Sunroof'],
+        licensePlate: 'ACK-2022'
+    },
+    {
+      make: 'Honda',
+      model: 'Accord',
+      year: 2022,
+      price: 45,
+      transmission: 'Automatic',
+      seats: 5,
+      fuelType: 'Gasoline',
+      available: true,
+      image: 'https://di-uploads-pod14.dealerinspire.com/hondaeastcincy/uploads/2023/02/2302-Honda-Accord-Touring-Hybrid-Trim.jpg',
+      category: 'Sedan',
+      description: 'Sporty sedan with excellent handling and spacious interior.',
+      features: ['Apple CarPlay', 'Android Auto', 'Heated Seats', 'Sunroof'],
+      licensePlate: 'ACU-2022'
+  },
 ];
 
 // Seed function

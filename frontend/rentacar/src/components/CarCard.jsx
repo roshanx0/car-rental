@@ -1,16 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Star, Users, Gauge, Snowflake, DoorOpen } from 'lucide-react';
 
 function CarCard({ car }) {
   return (
-    <div className="bg-white rounded-lg shadow-md max-w-xs">
-      {/* Car Image */}
-      <img 
-        src={car.image || "/api/placeholder/320/200"}
-        alt={`${car.make} ${car.model}`}
-        className="w-full h-48 object-cover"
-      />
-      
+    <div className="bg-white rounded-lg shadow-md max-w-xs hover:shadow-xl transition">
+      {/* Clickable Card */}
+      <Link to={`/cars/${car._id}`} className="block">
+        {/* Car Image */}
+        <img 
+          src={car.image || "/api/placeholder/320/200"}
+          alt={`${car.make} ${car.model}`}
+          className="w-full h-48 object-cover rounded-t-lg"
+        />
+      </Link>
+
       {/* Car Details */}
       <div className="px-4 pb-4">
         {/* Name and Rating */}
@@ -41,20 +45,22 @@ function CarCard({ car }) {
             <span>{car.doors || 2} Doors</span>
           </div>
         </div>
-        
+
         {/* Price and Button */}
         <div>
           <p className="text-sm font-medium mb-2">Price</p>
           <p className="text-lg font-bold mb-3">Rs. {car.price}/day</p>
-          <button className="w-full bg-blue-800 text-white py-2 px-4 rounded flex items-center justify-center">
-            <span>Rent Now</span>
-            <span className="ml-2">→</span>
-          </button>
+          
+          {/* Button links to car details */}
+          <Link to={`/cars/${car._id}`}>
+            <button className="w-full bg-blue-800 text-white py-2 px-4 rounded flex items-center justify-center">
+              <span>View Details</span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
   );
 }
 
-// Example usage
 export default CarCard;

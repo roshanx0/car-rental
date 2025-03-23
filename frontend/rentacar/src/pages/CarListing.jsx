@@ -59,8 +59,8 @@ function CarListing() {
   }
 
   return (
-    <div className="py-12">
-      <h1 className="text-3xl font-extrabold text-gray-900 mb-8">Available Vehicles</h1>
+    <div className="py-12 bg-slate-900 p-20">
+      <h1 className="text-3xl font-extrabold text-white mb-8">Available Vehicles</h1>
       
       {error && (
         <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-8">
@@ -72,12 +72,12 @@ function CarListing() {
         <input
           type="text"
           placeholder="Search cars..."
-          className="flex-grow px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="flex-grow px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 bg-white"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <select
-          className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 bg-white"
           value={sortOption}
           onChange={(e) => setSortOption(e.target.value)}
         >
@@ -88,7 +88,7 @@ function CarListing() {
         </select>
       </div>
       
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-4 ">
         {sortedCars.map(car => (
           <CarCard key={car._id} car={car} />
         ))}
@@ -96,7 +96,7 @@ function CarListing() {
       
       {sortedCars.length === 0 && (
         <div className="text-center py-12">
-          <p className="text-gray-500 text-lg">No cars match your search criteria.</p>
+          <p className="text-white text-lg">No cars match your search criteria.</p>
         </div>
       )}
     </div>
