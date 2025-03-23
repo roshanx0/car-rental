@@ -17,7 +17,7 @@ const NavBar = () => {
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/c443c00c830c27fd984f0076c21a899726fbf029"
           alt="Logo"
-          className="rounded-md border border-black border-solid h-[42px] shadow-[0_4px_4px_rgba(0,0,0,0.25)] w-[155px] hover:opacity-80 transition-opacity duration-200"
+          className="rounded-md border border-black border-solid h-[50px] shadow-[0_4px_4px_rgba(0,0,0,0.25)] w-[155px] hover:opacity-80 transition-opacity duration-200"
         />
       </a>
 
