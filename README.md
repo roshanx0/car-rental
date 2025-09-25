@@ -4,7 +4,7 @@
 
 A basic car rental system built with:  
 - **Frontend**: React + Tailwind CSS  
-- **Backend**: Node.js/Express  
+- **Backend**: Node.js + Express  
 - **Database**: MongoDB  
 
 ## Features 
